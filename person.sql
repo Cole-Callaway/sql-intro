@@ -3,10 +3,10 @@ create table person ( person_id SERIAL PRIMARY KEY, name VARCHAR(200), age integ
 --2
 insert into person ( name, age, height, city, favorite_color )
 values ('Cole Callaway', 24, 187.96, 'Brigham City', 'Blue' ),
-values ('Darth Vader', 41, 190, 'tatooine', 'Black' ),
-values ('Obi-wan Kenobi', 50, 176, 'Stewjon', 'Red' ),
-values ('Donovan Mitchell', 25, 186, 'New York', 'orange'),
-values ('Rudy Gobert', 29, 216, 'Saint-Quentin', 'Green');
+ ('Darth Vader', 41, 190, 'tatooine', 'Black' ),
+ ('Obi-wan Kenobi', 50, 176, 'Stewjon', 'Red' ),
+ ('Donovan Mitchell', 25, 186, 'New York', 'orange'),
+ ('Rudy Gobert', 29, 216, 'Saint-Quentin', 'Green');
 select * from person;
 --3
 select * from person order by height desc;
